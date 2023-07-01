@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tzI1x0A+OOc0c8aIeBeW0TjK7slubp/dBlYu/wDWAyD1VcSn7obRKhQlh7+tC9vX3vVgWSVHM305B0UbPZ0/zA==",
+  "dgSpecHash": "snGxi5kcI9eV3R+NYkta+eiNUBFMk4rH3LZqidS0aaBTG59T6U4rSCHV1KpZ7FnHLHEfCs8FJIWwBV8svYjt5g==",
   "success": true,
-  "projectFilePath": "/Users/enrique/Documents/Hackathon/fall-in/fall-in/fall-in.csproj",
+  "projectFilePath": "/Users/enrique/Documents/Hackathon/fall-in/fall-in.csproj",
   "expectedPackageFiles": [
     "/Users/enrique/.nuget/packages/microsoft.aspnetcore.spaproxy/7.0.5/microsoft.aspnetcore.spaproxy.7.0.5.nupkg.sha512"
   ],
