@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+.logoletters {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4em;
+  /* Add any additional styling for the logo here */
+}
