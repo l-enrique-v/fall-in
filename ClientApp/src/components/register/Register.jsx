@@ -16,8 +16,6 @@ const RegisterForm = () => {
     hobbies: [],
     newHobby: "",
     branchOfService: "",
-    // Add newHobby field
-    // Add more fields as needed
   });
 
   const handleInputChange = (event) => {

@@ -27,7 +27,7 @@ const SignIn = () => {
             className="form-control"
             id="userName"
             name="userName"
-            placeholder="CrayonEater123"
+            placeholder="Ex. CrayonEater123"
             value={signIn.userName}
             onChange={handleInputChange}
           />

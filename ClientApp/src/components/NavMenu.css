@@ -14,6 +14,18 @@ html {
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
-
+.logo-image {
+  width: 85px;
+  height: auto;
+  margin-right: 10px;
+}
+.userIcon {
+  color: "#47862d";
+  width: 20px;
+  height: auto;
+  border-style: solid;
+  border-radius: 25px;
+  padding: 5px;
+}
