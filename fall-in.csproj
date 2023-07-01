@@ -27,6 +27,7 @@
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
     <None Remove="Models\" />
     <None Remove="Secrets\" />
+    <None Remove="ClientApp\package-lock.json" />
   </ItemGroup>
 
   <ItemGroup>
