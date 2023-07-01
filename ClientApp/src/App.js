@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
-import { Route, Routes } from 'react-router-dom';
-import AppRoutes from './AppRoutes';
-import { Layout } from './components/Layout';
-import './custom.css';
-
-export default class App extends Component {
-  static displayName = App.name;
-
-  render() {
-    return (
-      <Layout>
-        <Routes>
-          {AppRoutes.map((route, index) => {
-            const { element, ...rest } = route;
-            return <Route key={index} {...rest} element={element} />;
-          })}
-        </Routes>
-      </Layout>
-    );
-  }
+import React from "react";
+import Home from "./components/Home";
+import SignIn from "./components/SignIn";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NavMenu from "./components/NavMenu";
+function App() {
+  return (
+    <React.Fragment>
+      <Router>
+        <NavMenu />
+        <div className="container mt-5" style={{ width: 1000 }}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/SignIn" element={<SignIn />} />
+          </Routes>
+        </div>
+      </Router>
+    </React.Fragment>
+  );
 }
+
+export default App;
