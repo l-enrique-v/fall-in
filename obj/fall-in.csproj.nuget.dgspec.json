@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/enrique/Documents/Hackathon/fall-in/fall-in/fall-in.csproj": {}
+    "/Users/enrique/Documents/Hackathon/fall-in/fall-in.csproj": {}
   },
   "projects": {
-    "/Users/enrique/Documents/Hackathon/fall-in/fall-in/fall-in.csproj": {
+    "/Users/enrique/Documents/Hackathon/fall-in/fall-in.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enrique/Documents/Hackathon/fall-in/fall-in/fall-in.csproj",
+        "projectUniqueName": "/Users/enrique/Documents/Hackathon/fall-in/fall-in.csproj",
         "projectName": "fall-in",
-        "projectPath": "/Users/enrique/Documents/Hackathon/fall-in/fall-in/fall-in.csproj",
+        "projectPath": "/Users/enrique/Documents/Hackathon/fall-in/fall-in.csproj",
         "packagesPath": "/Users/enrique/.nuget/packages/",
-        "outputPath": "/Users/enrique/Documents/Hackathon/fall-in/fall-in/obj/",
+        "outputPath": "/Users/enrique/Documents/Hackathon/fall-in/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/enrique/.nuget/NuGet/NuGet.Config"
