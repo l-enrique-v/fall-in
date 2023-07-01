@@ -30,3 +30,8 @@
 /Users/enrique/Documents/Hackathon/fall-in/obj/Debug/net7.0/fall-in.pdb
 /Users/enrique/Documents/Hackathon/fall-in/obj/Debug/net7.0/fall-in.genruntimeconfig.cache
 /Users/enrique/Documents/Hackathon/fall-in/obj/Debug/net7.0/ref/fall-in.dll
+/Users/enrique/Documents/Hackathon/fall-in/bin/Debug/net7.0/DotNetEnv.dll
+/Users/enrique/Documents/Hackathon/fall-in/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/enrique/Documents/Hackathon/fall-in/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/enrique/Documents/Hackathon/fall-in/bin/Debug/net7.0/OpenAI_API.dll
+/Users/enrique/Documents/Hackathon/fall-in/bin/Debug/net7.0/Sprache.dll
