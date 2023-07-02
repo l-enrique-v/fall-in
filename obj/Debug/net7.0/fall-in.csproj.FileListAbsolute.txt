@@ -30,3 +30,36 @@
 /Users/enrique/Documents/Hackathon/fall-in/obj/Debug/net7.0/fall-in.pdb
 /Users/enrique/Documents/Hackathon/fall-in/obj/Debug/net7.0/fall-in.genruntimeconfig.cache
 /Users/enrique/Documents/Hackathon/fall-in/obj/Debug/net7.0/ref/fall-in.dll
+/Users/enrique/Documents/Hackathon/fall-in 2/bin/Debug/net7.0/appsettings.Development.json
+/Users/enrique/Documents/Hackathon/fall-in 2/bin/Debug/net7.0/appsettings.json
+/Users/enrique/Documents/Hackathon/fall-in 2/bin/Debug/net7.0/spa.proxy.json
+/Users/enrique/Documents/Hackathon/fall-in 2/bin/Debug/net7.0/package-lock.json
+/Users/enrique/Documents/Hackathon/fall-in 2/bin/Debug/net7.0/fall-in
+/Users/enrique/Documents/Hackathon/fall-in 2/bin/Debug/net7.0/fall-in.deps.json
+/Users/enrique/Documents/Hackathon/fall-in 2/bin/Debug/net7.0/fall-in.runtimeconfig.json
+/Users/enrique/Documents/Hackathon/fall-in 2/bin/Debug/net7.0/fall-in.dll
+/Users/enrique/Documents/Hackathon/fall-in 2/bin/Debug/net7.0/fall-in.pdb
+/Users/enrique/Documents/Hackathon/fall-in 2/bin/Debug/net7.0/Microsoft.AspNetCore.SpaProxy.dll
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/fall-in.csproj.AssemblyReference.cache
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/spa.proxy.json
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/fall-in.GeneratedMSBuildEditorConfig.editorconfig
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/fall-in.AssemblyInfoInputs.cache
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/fall-in.AssemblyInfo.cs
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/fall-in.csproj.CoreCompileInputs.cache
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/fall-in.MvcApplicationPartsAssemblyInfo.cache
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/fall-in.RazorAssemblyInfo.cache
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/fall-in.RazorAssemblyInfo.cs
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/staticwebassets/msbuild.fall-in.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/staticwebassets/msbuild.build.fall-in.props
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.fall-in.props
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.fall-in.props
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/staticwebassets.build.json
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/staticwebassets.development.json
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/scopedcss/bundle/fall-in.styles.css
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/fall-in.csproj.CopyComplete
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/fall-in.dll
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/refint/fall-in.dll
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/fall-in.pdb
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/fall-in.genruntimeconfig.cache
+/Users/enrique/Documents/Hackathon/fall-in 2/obj/Debug/net7.0/ref/fall-in.dll

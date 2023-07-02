@@ -47,11 +47,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/enrique/Documents/Hackathon/fall-in/fall-in.csproj",
+      "projectUniqueName": "/Users/enrique/Documents/Hackathon/fall-in 2/fall-in.csproj",
       "projectName": "fall-in",
-      "projectPath": "/Users/enrique/Documents/Hackathon/fall-in/fall-in.csproj",
+      "projectPath": "/Users/enrique/Documents/Hackathon/fall-in 2/fall-in.csproj",
       "packagesPath": "/Users/enrique/.nuget/packages/",
-      "outputPath": "/Users/enrique/Documents/Hackathon/fall-in/obj/",
+      "outputPath": "/Users/enrique/Documents/Hackathon/fall-in 2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/enrique/.nuget/NuGet/NuGet.Config"
@@ -61,7 +61,7 @@
       ],
       "sources": {
         "/usr/local/share/dotnet/library-packs": {},
-        "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -104,7 +104,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
       }
     }
   }
