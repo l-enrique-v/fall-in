@@ -11366,24 +11366,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\addam\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\prodi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\addam\\Source\\Repos\\fall-in\\fall-in.csproj",
+      "projectUniqueName": "C:\\Hackathon\\Fall-In\\fall-in\\fall-in.csproj",
       "projectName": "fall-in",
-      "projectPath": "C:\\Users\\addam\\Source\\Repos\\fall-in\\fall-in.csproj",
-      "packagesPath": "C:\\Users\\addam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\addam\\Source\\Repos\\fall-in\\obj\\",
+      "projectPath": "C:\\Hackathon\\Fall-In\\fall-in\\fall-in.csproj",
+      "packagesPath": "C:\\Users\\prodi\\.nuget\\packages\\",
+      "outputPath": "C:\\Hackathon\\Fall-In\\fall-in\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\addam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\prodi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11391,7 +11386,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11448,7 +11442,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

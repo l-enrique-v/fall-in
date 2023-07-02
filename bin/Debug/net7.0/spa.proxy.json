@@ -2,7 +2,7 @@
 "SpaProxyServer": {
 "ServerUrl": "https://localhost:44483",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\addam\\Source\\Repos\\fall-in\\ClientApp\\",
+"WorkingDirectory": "C:\\Hackathon\\Fall-In\\fall-in\\ClientApp\\",
 "MaxTimeoutInSeconds": "120"
 }
 }
