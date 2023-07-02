@@ -3,6 +3,8 @@ import generateCompletion from '../../services/openAI';
 
 const FindVeterans=()=> {
 const [userHobby, setUserHobby] = useState(`2	[{"hobby_name":"Hunting"},{"hobby_name":"Woodworking"},{"hobby_name":"Martial arts"},{"hobby_name":"Automotive restoration"}]`)
+
+
 const inputText = `The top 10 UserIds with simliar hobbies from this JSON:[{"UserId":1,"Hobbies":[{"hobby_name":"Weightlifting"},{"hobby_name":"Weightlifting"},{"hobby_name":"Hunting"},{"hobby_name":"Fishing"},{"hobby_name":"Weightlifting"},{"hobby_name":"Hunting"},{"hobby_name":"Fishing"}]}
 and compare to these table rows 
 UserId	Hobbies
@@ -49,15 +51,23 @@ UserId	Hobbies
 45	[{"hobby_name":"Home brewing"},{"hobby_name":"Hiking and mountaineering"},{"hobby_name":"Playing sports"},{"hobby_name":"DIY projects"}]
 46	[{"hobby_name":"Golfing"},{"hobby_name":"Leatherworking"},{"hobby_name":"Survival skills training"},{"hobby_name":"Metalworking"}]
 47	[{"hobby_name":"Hiking and mountaineering"},{"hobby_name":"Metalworking"},{"hobby_name":"Golfing"},{"hobby_name":"Boxing"},{"hobby_name":"Golfing"},{"hobby_name":"Boxing"},{"hobby_name":"Weightlifting"}]
-are 
+are
 Result = { }`
+useEffect(() => {
+ getVeteranIds(inputText)
+}, []);
 
-const result = generateCompletion(inputText)
+const getVeteranIds = (inputText)=>{
+ console.log(generateCompletion(inputText))
+
+}
+
+
 
 
 return (
     <p>
-   {result}
+   {userHobby}
     </p>
   );
 }

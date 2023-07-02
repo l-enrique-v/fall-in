@@ -4,20 +4,19 @@ import axios from 'axios';
 const apiKey = process.env.REACT_APP_OPENAI_API_KEY;
 
 
-// Function to make the OpenAI API request
+// Function to make the OpenAI API requestç
 const generateCompletion = (inputText) => {
-    console.log(apiKey)
   return new Promise((resolve, reject) => {
     axios({
       method: 'post',
-      url: 'https://api.openai.com/v1/engines/davinci-codex/completions',
+      url: 'https://api.openai.com/v1/engines/text-davinci-003/completions',
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${apiKey}`
       },
       data: {
         prompt: inputText,
-        max_tokens: 3000
+        max_tokens: 100
       }
     })
       .then(response => {

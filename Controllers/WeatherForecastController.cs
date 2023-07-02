@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
 namespace fall_in.Controllers;
 
 [ApiController]

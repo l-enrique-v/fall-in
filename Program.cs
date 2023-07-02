@@ -1,5 +1,13 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using fall_in.Data;
+using System.Configuration;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<fall_inContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("fall_inContext") ?? throw new InvalidOperationException("Connection string 'fall_inContext' not found.")));
+builder.Services.AddDbContext<hobbiesContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("fall_inContext")));
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
