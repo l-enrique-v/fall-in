@@ -1,17 +1,50 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useContext } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { UserContext } from "./UserContext";
 
 const SignIn = () => {
   const [signIn, setSignIn] = useState({
     userName: "",
     password: "",
   });
+
+  const navigate = useNavigate();
+  const { updateUser } = useContext(UserContext);
+
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setSignIn((prevFormData) => ({
       ...prevFormData,
       [name]: value,
     }));
+  };
+
+  const handleSignIn = (event) => {
+    event.preventDefault();
+    fetch("https://localhost:7293/api/Login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(signIn),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("Signed In successfully:", data);
+
+        // Reset the form fields after signing in
+        setSignIn({
+          userName: "",
+          password: "",
+        });
+
+        // Update the user data in the context
+        updateUser(data);
+
+        // Navigate to the dashboard page
+        navigate("/dashboard");
+      })
+      .catch((error) => {
+        console.error("Error signing in:", error);
+      });
   };
   return (
     <div>
@@ -44,11 +77,16 @@ const SignIn = () => {
             onChange={handleInputChange}
           />
         </div>
-        <button type="submit" className="m-2 btn btn-primary">
+        <button
+          type="submit"
+          className="m-2 btn btn-primary"
+          onClick={handleSignIn}
+        >
           Sign In
         </button>
       </div>
     </div>
   );
 };
+
 export default SignIn;

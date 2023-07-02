@@ -8,7 +8,7 @@ builder.Services.AddDbContext<fall_inContext>(options =>
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddCors();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -21,7 +21,12 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-
+app.UseCors(options =>
+{
+    options.AllowAnyOrigin()
+           .AllowAnyHeader()
+           .AllowAnyMethod();
+});
 
 app.MapControllerRoute(
     name: "default",

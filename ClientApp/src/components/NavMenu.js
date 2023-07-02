@@ -25,7 +25,11 @@ const NavMenu = () => {
         </NavbarBrand>
         <ul className="navbar-nav flex-grow">
           <NavItem>
-            <NavLink tag={Link} className="btn btn-success mx-2" to="/">
+            <NavLink
+              tag={Link}
+              className="btn btn-success mx-2"
+              to="/Dashboard"
+            >
               Home
             </NavLink>
           </NavItem>

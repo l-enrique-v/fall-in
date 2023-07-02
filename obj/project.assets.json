@@ -11366,19 +11366,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\prodi\\.nuget\\packages\\": {}
+    "C:\\Users\\masdo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hackathon\\Fall-In\\fall-in\\fall-in.csproj",
+      "projectUniqueName": "C:\\Users\\masdo\\OneDrive\\Desktop\\Fall in\\fall-in\\fall-in.csproj",
       "projectName": "fall-in",
-      "projectPath": "C:\\Hackathon\\Fall-In\\fall-in\\fall-in.csproj",
-      "packagesPath": "C:\\Users\\prodi\\.nuget\\packages\\",
-      "outputPath": "C:\\Hackathon\\Fall-In\\fall-in\\obj\\",
+      "projectPath": "C:\\Users\\masdo\\OneDrive\\Desktop\\Fall in\\fall-in\\fall-in.csproj",
+      "packagesPath": "C:\\Users\\masdo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\masdo\\OneDrive\\Desktop\\Fall in\\fall-in\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\prodi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\masdo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11442,7 +11442,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
