@@ -2,8 +2,8 @@ import React, {useState, useEffect }from 'react'
 import generateCompletion from '../../services/openAI';
 
 const FindVeterans=()=> {
-const [userHobby, setUserHobby] = useState(`2	[{"hobby_name":"Hunting"},{"hobby_name":"Woodworking"},{"hobby_name":"Martial arts"},{"hobby_name":"Automotive restoration"}]`)
-
+const [veterans, setVeterans] = useState()
+const [veteranCards, setVeteransCards]=useState()
 
 const inputText = `The top 10 UserIds with simliar hobbies from this JSON:[{"UserId":1,"Hobbies":[{"hobby_name":"Weightlifting"},{"hobby_name":"Weightlifting"},{"hobby_name":"Hunting"},{"hobby_name":"Fishing"},{"hobby_name":"Weightlifting"},{"hobby_name":"Hunting"},{"hobby_name":"Fishing"}]}
 and compare to these table rows 
@@ -52,23 +52,45 @@ UserId	Hobbies
 46	[{"hobby_name":"Golfing"},{"hobby_name":"Leatherworking"},{"hobby_name":"Survival skills training"},{"hobby_name":"Metalworking"}]
 47	[{"hobby_name":"Hiking and mountaineering"},{"hobby_name":"Metalworking"},{"hobby_name":"Golfing"},{"hobby_name":"Boxing"},{"hobby_name":"Golfing"},{"hobby_name":"Boxing"},{"hobby_name":"Weightlifting"}]
 are
-Result = { }`
+return result as an array []
+\n\n`
 useEffect(() => {
  getVeteranIds(inputText)
 }, []);
 
-const getVeteranIds = (inputText)=>{
- console.log(generateCompletion(inputText))
+const getVeteranIds = async(inputText)=>{
+const userIds = await generateCompletion(inputText)
+const [userArray]= JSON.parse("[" + userIds + "]")
+setVeterans(userIds)
+for (let i = 0; i < userArray.length; i++) {
+  const element = userArray[i];
+  console.log(element)
+  console.log(thisUser(element))
+  
+}
 
 }
 
-
+const thisUser = async (userId) => {
+  return await new Promise((resolve, reject) => {
+      fetch(`https://localhost:7293/api/user/${userId}`, {
+          method: "GET",
+          headers: { "Content-Type": "application/json" },
+      })
+          .then(response => resolve(response))
+          .catch(error => reject( error )) 
+  }); 
+};
 
 
 return (
-    <p>
-   {userHobby}
-    </p>
+    <div>
+      <h3>User Ids</h3>
+      <p>
+      {veterans}
+      {veteranCards}
+      </p>
+    </div>
   );
 }
 
